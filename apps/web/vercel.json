@@ -118,15 +118,15 @@
   "crons": [
     {
       "path": "/api/cron/scheduled-actions",
-      "schedule": "* * * * *"
+      "schedule": "0 0 * * *"
     },
     {
       "path": "/api/watch/all",
-      "schedule": "0 * * * *"
+      "schedule": "0 1 * * *"
     },
     {
       "path": "/api/resend/digest/all",
-      "schedule": "*/5 * * * *"
+      "schedule": "0 7 * * *"
     },
     {
       "path": "/api/resend/inbox-health/all",
@@ -138,23 +138,23 @@
     },
     {
       "path": "/api/meeting-briefs",
-      "schedule": "*/15 * * * *"
+      "schedule": "15 7 * * *"
     },
     {
       "path": "/api/meeting-recorder/schedule",
-      "schedule": "*/5 * * * *"
+      "schedule": "30 7 * * *"
     },
     {
       "path": "/api/follow-up-reminders",
-      "schedule": "0 * * * *"
+      "schedule": "0 2 * * *"
     },
     {
       "path": "/api/cron/automation-jobs",
-      "schedule": "*/15 * * * *"
+      "schedule": "15 2 * * *"
     },
     {
       "path": "/api/cron/bulk-inbox-action-recovery",
-      "schedule": "*/10 * * * *"
+      "schedule": "30 2 * * *"
     },
     {
       "path": "/api/cron/reasoning-retention",
